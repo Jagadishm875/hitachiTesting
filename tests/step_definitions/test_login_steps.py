@@ -19,7 +19,7 @@ def open_login_page():
 @when("I enter valid credentials")
 def enter_credentials():
     page.fill("#email", "test@example.com")     # use your test email
-    page.fill("#pass", "Password123")           # use your test password
+    page.fill("#pass", "Password123")           # use your test passwosrd
     page.click("button.login")
 
 @then("I should see the dashboard")
